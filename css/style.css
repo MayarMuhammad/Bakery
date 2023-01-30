@@ -1,0 +1,242 @@
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #686868;
+}
+#home {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/drew-coffman-1872.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #303030;
+}
+p {
+  line-height: 29.76px;
+  font-weight: 400;
+}
+.BgColour {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid lightgray;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.paddingAround{
+  padding: 100px 70px;
+}
+.logoImage {
+  width: 150px;
+}
+.homeNavBar ul li {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0 5px;
+}
+.homeNavBar ul li a {
+  width: fit-content;
+  background-image: linear-gradient(rgb(145, 122, 85), rgb(143 120 84));
+  background-size: 0% 2px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  -webkit-transition: background-size 0.5s ease;
+  -moz-transition: background-size 0.5s ease;
+  -ms-transition: background-size 0.5s ease;
+  -o-transition: background-size 0.5s ease;
+}
+.homeNavBar ul li a:hover {
+  background-size: 100% 2px;
+}
+.homeContent h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.homeContent p {
+  color: #cccccc;
+  font-size: 24px;
+  line-height: 44.64px;
+}
+.homeContent .buttons {
+  color: white;
+  background-color: #8e7754;
+  padding: 15px 20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.homeContent .CustomizeBorder {
+  background-color: transparent;
+  border: 2px white solid;
+}
+.homeContent .buttons:hover {
+  background-color: white;
+  color: black;
+}
+.scroll {
+  position: relative;
+  width: 32px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+.scroll:before {
+  --width: 3px;
+  content: "";
+  position: absolute;
+  left: calc(50% - var(--width));
+  width: 6px;
+  height: 8px;
+  background: #fff;
+  border-radius: 4px;
+  animation: scroll infinite 2s;
+  -webkit-animation: scroll infinite 2s;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+    -webkit-transform: translateY(46px);
+    -moz-transform: translateY(46px);
+    -ms-transform: translateY(46px);
+    -o-transform: translateY(46px);
+  }
+}
+.imageWidth {
+  width: 90%;
+}
+.list ul li {
+  margin-bottom: 10px;
+  display: flex;
+}
+#sectionOne .list i {
+  color: rgb(142, 119, 84);
+  box-shadow: 0 0 0 1px rgb(142, 119, 84);
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+}
+#sectionOne .list span {
+  margin-left: 10px;
+  line-height: 40px;
+}
+#sectionThree .text h4 {
+  font-size: 16px;
+}
+#sectionFour .list i {
+  color: white;
+  background-color: #8e7754;
+  box-shadow: 0 0 0 1px rgb(142, 119, 84);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+}
+#sectionFour .list span {
+  margin-left: 10px;
+  line-height: 40px;
+}
+.mapWidth {
+  width: 80% !important;
+}
+#sectionFive.backgroundColor {
+  background-color: #403d38;
+}
+#sectionFive h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sectionFive p {
+  color: #969696;
+  font-size: 18px;
+  line-height: 33.48px;
+  font-weight: 400;
+}
+#sectionFive .list li {
+  color: #969696;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 5px;
+}
+#sectionFive .list i {
+  color: #969696;
+  font-size: 23px;
+  line-height: 33px;
+  margin-right: 10px;
+}
+footer.backgroundColor {
+  background-color: #353330;
+}
+footer .image img {
+  width: 150px;
+}
+footer p {
+  font-size: 14px;
+  color: #969696;
+  font-family: "Times New Roman", Times, serif;
+}
+footer .list i {
+  color: #969696;
+  background-color: rgb(72, 69, 64);
+  box-shadow: 0 0 0 1px rgb(72, 69, 64);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  margin: 0px 5px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+footer .list li:hover {
+  cursor: pointer;
+}
+footer .list li:hover .fb {
+  background-color: #3b5998;
+  color: white;
+}
+footer .list li:hover .gm {
+  background-color: #dd4b32;
+  color: white;
+}
+footer .list li:hover .in {
+  background-color: #007bb5;
+  color: white;
+}
+footer .list li:hover .tw {
+  background-color: #00aced;
+  color: white;
+}
