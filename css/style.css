@@ -27,7 +27,7 @@ p {
   font-weight: 400;
 }
 .BgColour {
-  background-color: rgba(142, 119, 84, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   border-bottom: 1px solid lightgray;
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
